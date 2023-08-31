@@ -1,0 +1,48 @@
+label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #errorFirstName,
+  #errorGender,
+  #errorCountry,
+  #errorCity,
+  #errorAge {
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  form {
+    
+    flex-direction: column;
+    
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    border: 2px solid rgb(20, 17, 48);
+    padding: 20px;
+  }
